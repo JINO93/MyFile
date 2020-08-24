@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-24T07:53:38.076Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="V87KAzKoISjFOPf64Pq-" version="12.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-24T08:19:32.037Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="JyX9tGGS62907C6NQ07t" version="12.8.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -132,7 +132,7 @@
         <mxCell id="7jca3A92ZOdhDg8KTagc-31" value="返回的广告物料为空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="480" y="870" width="80" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="7jca3A92ZOdhDg8KTagc-32" value="否" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7jca3A92ZOdhDg8KTagc-31">
+        <mxCell id="7jca3A92ZOdhDg8KTagc-32" value="否" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7jca3A92ZOdhDg8KTagc-31" target="7jca3A92ZOdhDg8KTagc-36">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="1010" as="sourcePoint" />
             <mxPoint x="520" y="990" as="targetPoint" />
@@ -147,12 +147,42 @@
         <mxCell id="7jca3A92ZOdhDg8KTagc-34" value="清空数据库中记录的广告物料信息并删除本地缓存的广告资源" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="610" y="875" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7jca3A92ZOdhDg8KTagc-35" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.692;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7jca3A92ZOdhDg8KTagc-34" target="7jca3A92ZOdhDg8KTagc-22">
+        <mxCell id="7jca3A92ZOdhDg8KTagc-35" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7jca3A92ZOdhDg8KTagc-34">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="630" y="840" as="sourcePoint" />
-            <mxPoint x="680" y="790" as="targetPoint" />
+            <mxPoint x="770" y="641" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="783" y="905" />
+              <mxPoint x="770" y="905" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7jca3A92ZOdhDg8KTagc-36" value="找出本地数据库中有但最新协议获取的没有的广告数据，&lt;b&gt;删除&lt;/b&gt;这些数据（包括本地文件和数据库信息）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="445" y="990" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7jca3A92ZOdhDg8KTagc-37" value="找出最新协议获取的有但本地数据库中没有的广告数据，加入下载列表，然后入库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="1109" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7jca3A92ZOdhDg8KTagc-38" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7jca3A92ZOdhDg8KTagc-36" target="7jca3A92ZOdhDg8KTagc-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="1110" as="sourcePoint" />
+            <mxPoint x="540" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7jca3A92ZOdhDg8KTagc-39" value="逐个下载下载列表的广告物料（图片、视频）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="455" y="1230" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7jca3A92ZOdhDg8KTagc-40" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7jca3A92ZOdhDg8KTagc-37" target="7jca3A92ZOdhDg8KTagc-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="1230" as="sourcePoint" />
+            <mxPoint x="550" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7jca3A92ZOdhDg8KTagc-41" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.9;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7jca3A92ZOdhDg8KTagc-39" target="7jca3A92ZOdhDg8KTagc-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="1300" as="sourcePoint" />
+            <mxPoint x="740" y="1250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="808" y="1260" />
             </Array>
           </mxGeometry>
         </mxCell>
