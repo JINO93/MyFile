@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-24T08:19:32.037Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="JyX9tGGS62907C6NQ07t" version="12.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-24T08:22:27.942Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="fYxcy274sCjz8pTXwdA0" version="12.8.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -66,7 +66,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7jca3A92ZOdhDg8KTagc-11" value="&lt;font style=&quot;font-size: 14px&quot;&gt;满足一下任一条件：&lt;br&gt;1. 上次展示开屏广告在&lt;b&gt;6分钟之前&lt;/b&gt;并且&lt;b&gt;有可用&lt;/b&gt;的本地缓存广告物料&lt;br&gt;2.有&lt;b&gt;实时广告&lt;/b&gt;的广告物料&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="7jca3A92ZOdhDg8KTagc-11" value="&lt;font style=&quot;font-size: 14px&quot;&gt;满足一下任一条件：&lt;br&gt;1. 上次展示开屏广告在&lt;b&gt;6分钟之前&lt;/b&gt;并且&lt;b&gt;有可用&lt;/b&gt;的本地缓存广告物料（可用指时间在广告的startTime和endTime之间并且对应的资源已下载成功）&lt;br&gt;2.有&lt;b&gt;实时广告&lt;/b&gt;的广告物料&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="60" y="545" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7jca3A92ZOdhDg8KTagc-12" value="根据广告物料展示闪屏广告" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
