@@ -1,1 +1,169 @@
-<mxfile host="app.diagrams.net" modified="2020-09-28T07:15:53.319Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" version="13.6.4" etag="Ox1AbAlkB4XZWnRNT5kj" type="github"><diagram id="42KJjZnme22GjIDsiNIH">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-09-28T09:21:59.620Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="V_5uuHmR1SWEPCVI92r8" version="13.6.4" type="github">
+  <diagram id="42KJjZnme22GjIDsiNIH" name="第 1 页">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dQBOTQMVIhl5E_fYhvYl-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="90" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dQBOTQMVIhl5E_fYhvYl-2" value="调用美数SDK请求广告" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="160" y="240" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dQBOTQMVIhl5E_fYhvYl-3" value="调用Http接口请求实时广告" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="240" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dQBOTQMVIhl5E_fYhvYl-4" value="调用Http获取广告源优先级配置表" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="240" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dQBOTQMVIhl5E_fYhvYl-6" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dQBOTQMVIhl5E_fYhvYl-1" target="dQBOTQMVIhl5E_fYhvYl-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="170" as="sourcePoint" />
+            <mxPoint x="320" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQBOTQMVIhl5E_fYhvYl-7" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="dQBOTQMVIhl5E_fYhvYl-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="200" as="sourcePoint" />
+            <mxPoint x="390" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQBOTQMVIhl5E_fYhvYl-8" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="dQBOTQMVIhl5E_fYhvYl-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="200" as="sourcePoint" />
+            <mxPoint x="220" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQBOTQMVIhl5E_fYhvYl-11" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dQBOTQMVIhl5E_fYhvYl-3" target="dQBOTQMVIhl5E_fYhvYl-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="440" as="sourcePoint" />
+            <mxPoint x="390" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQBOTQMVIhl5E_fYhvYl-12" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dQBOTQMVIhl5E_fYhvYl-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="209.5" y="310" as="sourcePoint" />
+            <mxPoint x="390" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQBOTQMVIhl5E_fYhvYl-13" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dQBOTQMVIhl5E_fYhvYl-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="320" as="sourcePoint" />
+            <mxPoint x="390" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQBOTQMVIhl5E_fYhvYl-14" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dQBOTQMVIhl5E_fYhvYl-28" target="dQBOTQMVIhl5E_fYhvYl-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="550" as="sourcePoint" />
+            <mxPoint x="390" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQBOTQMVIhl5E_fYhvYl-17" value="&lt;span&gt;广告源优先级配置表是否获取成功&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="580" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dQBOTQMVIhl5E_fYhvYl-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.008;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dQBOTQMVIhl5E_fYhvYl-18" target="dQBOTQMVIhl5E_fYhvYl-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="1206" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQBOTQMVIhl5E_fYhvYl-18" value="根据配置表判断需要展示的广告" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="680" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dQBOTQMVIhl5E_fYhvYl-19" value="展示广告" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;arcSize=14;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1169" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dQBOTQMVIhl5E_fYhvYl-24" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1279" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dQBOTQMVIhl5E_fYhvYl-25" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dQBOTQMVIhl5E_fYhvYl-19" target="dQBOTQMVIhl5E_fYhvYl-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="1099" as="sourcePoint" />
+            <mxPoint x="670" y="1049" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="1249" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQBOTQMVIhl5E_fYhvYl-27" value="是" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dQBOTQMVIhl5E_fYhvYl-17" target="dQBOTQMVIhl5E_fYhvYl-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="790" as="sourcePoint" />
+            <mxPoint x="650" y="740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQBOTQMVIhl5E_fYhvYl-28" value="在到达超时阈值之前（2s）等待全部数据的返回" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="450" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dQBOTQMVIhl5E_fYhvYl-29" value="否" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dQBOTQMVIhl5E_fYhvYl-17" target="dQBOTQMVIhl5E_fYhvYl-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="730" as="sourcePoint" />
+            <mxPoint x="390" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQBOTQMVIhl5E_fYhvYl-33" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dQBOTQMVIhl5E_fYhvYl-30" target="dQBOTQMVIhl5E_fYhvYl-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQBOTQMVIhl5E_fYhvYl-30" value="是否存在实时广告物料" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="790" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dQBOTQMVIhl5E_fYhvYl-31" value="是" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dQBOTQMVIhl5E_fYhvYl-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="950" as="sourcePoint" />
+            <mxPoint x="170" y="830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="830" />
+              <mxPoint x="210" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQBOTQMVIhl5E_fYhvYl-36" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dQBOTQMVIhl5E_fYhvYl-32" target="dQBOTQMVIhl5E_fYhvYl-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dQBOTQMVIhl5E_fYhvYl-32" value="是否存在预加载广告物料" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="910" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dQBOTQMVIhl5E_fYhvYl-34" value="是" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dQBOTQMVIhl5E_fYhvYl-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="1000" as="sourcePoint" />
+            <mxPoint x="170" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQBOTQMVIhl5E_fYhvYl-35" value="是否存在SDK广告物料" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1030" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dQBOTQMVIhl5E_fYhvYl-37" value="是" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dQBOTQMVIhl5E_fYhvYl-35" target="dQBOTQMVIhl5E_fYhvYl-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="1110" as="sourcePoint" />
+            <mxPoint x="570" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dQBOTQMVIhl5E_fYhvYl-38" value="否" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dQBOTQMVIhl5E_fYhvYl-35" target="dQBOTQMVIhl5E_fYhvYl-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="1130" as="sourcePoint" />
+            <mxPoint x="670" y="1080" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="1070" />
+              <mxPoint x="550" y="1309" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
