@@ -1,1 +1,92 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T07:05:32.174Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.2.7" etag="4YKPNZxuT39hwKl92XSn" type="github"><diagram id="u_yubwjlrYzkjrypdjKS">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-21T08:06:25.357Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="cZLVWjpySYzsUldAUWCu" version="20.2.7" type="github">
+  <diagram id="u_yubwjlrYzkjrypdjKS" name="第 1 页">
+    <mxGraphModel dx="701" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RWTEjwRNCCTJ-F7GlPlJ-1" value="主叫方" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="40" width="100" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="RWTEjwRNCCTJ-F7GlPlJ-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="RWTEjwRNCCTJ-F7GlPlJ-1">
+          <mxGeometry x="45" y="70" width="10" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="RWTEjwRNCCTJ-F7GlPlJ-12" value="进入视频通话页等待接通" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;fontColor=#000000;" edge="1" parent="RWTEjwRNCCTJ-F7GlPlJ-1">
+          <mxGeometry x="1" y="-20" relative="1" as="geometry">
+            <mxPoint x="60" y="240" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="100" y="240" />
+              <mxPoint x="100" y="360" />
+              <mxPoint x="70" y="360" />
+            </Array>
+            <mxPoint x="70" y="360" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWTEjwRNCCTJ-F7GlPlJ-2" value="被叫方" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="40" width="100" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="RWTEjwRNCCTJ-F7GlPlJ-3" value="服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="80" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="RWTEjwRNCCTJ-F7GlPlJ-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="RWTEjwRNCCTJ-F7GlPlJ-3">
+          <mxGeometry x="35" y="120" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RWTEjwRNCCTJ-F7GlPlJ-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#FF0000;" vertex="1" parent="RWTEjwRNCCTJ-F7GlPlJ-3">
+          <mxGeometry x="35" y="180" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RWTEjwRNCCTJ-F7GlPlJ-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#FF0000;" vertex="1" parent="RWTEjwRNCCTJ-F7GlPlJ-3">
+          <mxGeometry x="35" y="220" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RWTEjwRNCCTJ-F7GlPlJ-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#FF0000;" vertex="1" parent="RWTEjwRNCCTJ-F7GlPlJ-3">
+          <mxGeometry x="35" y="370" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RWTEjwRNCCTJ-F7GlPlJ-6" value="请求前置接口，获取真实UID（&lt;font color=&quot;#ff0000&quot;&gt;新增&lt;/font&gt;）" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="RWTEjwRNCCTJ-F7GlPlJ-5" parent="1">
+          <mxGeometry x="-0.3221" y="-10" relative="1" as="geometry">
+            <mxPoint x="130" y="160" as="sourcePoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWTEjwRNCCTJ-F7GlPlJ-7" value="真实UID信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="RWTEjwRNCCTJ-F7GlPlJ-5" parent="1">
+          <mxGeometry x="0.4204" y="11" relative="1" as="geometry">
+            <mxPoint x="130" y="189" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWTEjwRNCCTJ-F7GlPlJ-9" value="&lt;font color=&quot;#000000&quot;&gt;发起会话请求&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;fontColor=#FF0000;" edge="1" target="RWTEjwRNCCTJ-F7GlPlJ-8" parent="1">
+          <mxGeometry x="-0.0725" y="-10" relative="1" as="geometry">
+            <mxPoint x="130" y="220" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="310" y="220" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWTEjwRNCCTJ-F7GlPlJ-10" value="&lt;font color=&quot;#000000&quot;&gt;返回session_id/channel/token&lt;br&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;fontColor=#FF0000;" edge="1" source="RWTEjwRNCCTJ-F7GlPlJ-8" parent="1">
+          <mxGeometry x="0.0148" y="11" relative="1" as="geometry">
+            <mxPoint x="130" y="250" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWTEjwRNCCTJ-F7GlPlJ-18" value="请求机器人信息（&lt;font color=&quot;#ff0000&quot;&gt;新增&lt;/font&gt;）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="140" y="290" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RWTEjwRNCCTJ-F7GlPlJ-19" value="通过融云给被叫方发起通话请求（消息中带有自身信息）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="140" y="330" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RWTEjwRNCCTJ-F7GlPlJ-21" value="&lt;font color=&quot;#000000&quot;&gt;发起请求失败，回调通话状态（&lt;/font&gt;新增&lt;font color=&quot;#000000&quot;&gt;）&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;rounded=0;fontColor=#FF0000;startFill=0;exitX=1.435;exitY=0.439;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="RWTEjwRNCCTJ-F7GlPlJ-20" parent="1" source="RWTEjwRNCCTJ-F7GlPlJ-4">
+          <mxGeometry x="-0.1283" y="-12" relative="1" as="geometry">
+            <mxPoint x="130" y="450" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWTEjwRNCCTJ-F7GlPlJ-23" value="&lt;font color=&quot;#000000&quot;&gt;等待超时/接通成功，回调通话状态（&lt;/font&gt;新增&lt;font color=&quot;#000000&quot;&gt;）&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;rounded=0;fontColor=#FF0000;startFill=0;exitX=1.435;exitY=0.439;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-0.1283" y="-12" relative="1" as="geometry">
+            <mxPoint x="129.99999999999991" y="429.9999999999999" as="sourcePoint" />
+            <mxPoint x="475.65" y="429.9999999999999" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
